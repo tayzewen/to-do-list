@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background: url(graphpaper.jpeg);
+    background-size: 850px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    color: #2F2F2F;
+    padding: 20px 0 10px;
+    text-shadow: 2px 2px 6px #646262;
+    
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#first {
+    color: #0E177F;
+}
+
+#second {
+    color: #038737;
+}
+
+#third {
+    color: #D11414;
+}
+
+.instructions {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 10px;
+    border-radius: 2vh;
+    margin-bottom: 25px;
+    box-shadow: 2px 7px 12px rgb(0 0 0 / 0.4);
+}
+
+.text-input {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#userInput {
+    min-width: 75%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 22px;
+}
+
+#enter {
+    width: 41px;
+    height: 41px;
+    padding: 0;
+    font-size: 28px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: 600;
+    background-color: #51DF70;
+}
+
+#enter:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.34);
+    /* Lowering the shadow */
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: solid black 2px;
+    border-radius: 1vh;
+    padding: 10px 20px;
+    background-color: rgba(240,128,128, .5);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px 10px;
+}
+
+.done {
+	background: rgba(81, 223, 112, .5) !important;
+    text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
+
+
+li > button {
+    float: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    background: none;
+    border: none;
+}
