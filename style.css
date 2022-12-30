@@ -8,13 +8,13 @@ body {
 h1 {
     font-size: 42px;
     color: #2F2F2F;
-    padding: 20px 0 10px;
+    padding: .8rem .5rem .8rem;
+    margin: 1rem .5rem;
     text-shadow: 2px 2px 6px #646262;
     
 }
 
 p {
-    font-size: 22px;
     font-weight: 600;
     margin: 10px 0;
 }
@@ -49,8 +49,9 @@ p {
     min-width: 75%;
     border-radius: 5px;
     padding: 5px;
-    border: 2px solid black;
-    font-size: 22px;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 2px 7px 12px rgb(0 0 0 / 0.4);
 }
 
 #enter {
@@ -59,7 +60,8 @@ p {
     padding: 0;
     font-size: 28px;
     border-radius: 5px;
-    border: 2px solid black;
+    box-shadow: 2px 7px 12px rgb(0 0 0 / 0.4);
+    border: none;
     font-weight: 600;
     background-color: #51DF70;
     color: black;
@@ -79,9 +81,8 @@ ul {
 }
 
 li {
-    border: solid black 2px;
     border-radius: 1vh;
-    padding: 10px 20px;
+    padding: .3rem .625rem;
     background-color: rgba(240,128,128, .5);
     font-size: 20px;
     font-weight: 600;
